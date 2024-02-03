@@ -10,7 +10,7 @@ import (
 func main() {
 	log.SetPrefix("Greetings: ")
 	log.SetFlags(0)
-	message, error := greetings.Hello("")
+	message, error := greetings.Hello("sagar")
 	if error != nil {
 		log.Fatal(error)
 	}
